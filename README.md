@@ -17,7 +17,18 @@ A simple NLP-based chatbot built using Java and Stanford NLP concepts.
 - Maven
 - NLP concepts
 
-## ▶️ How to Run
+## 🎥 Demo (How it works)
+
+Run locally:
+
 ```bash
-mvn clean install
-mvn exec:java -Dexec.mainClass="chatbot.ChatBotApp"
+mvn spring-boot:run
+```
+
+Then open:
+http://localhost:8080
+
+Example:
+You: hello
+Bot: Hello! How can I help you?
+
